@@ -21,7 +21,8 @@ service = FirefoxService(executable_path=gecko_driver_path)
 browser = webdriver.Firefox(service=service, options=options)
 
 # The onion URL you want to scrape
-url = "http://nsalewdnfclsowcal6kn5csm4ryqmfpijznxwictukhrgvz2vbmjjjyd.onion/index.html"
+# url = "http://nsalewdnfclsowcal6kn5csm4ryqmfpijznxwictukhrgvz2vbmjjjyd.onion/index.html"
+url = "http://nsalewdnfclsowcal6kn5csm4ryqmfpijznxwictukhrgvz2vbmjjjyd.onion/lot12.html"
 
 # Open the page
 browser.get(url)

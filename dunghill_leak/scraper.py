@@ -66,7 +66,8 @@ def extract_company_data(entity):
     return info_dict
 
 def main():
-    url = "http://nsalewdnfclsowcal6kn5csm4ryqmfpijznxwictukhrgvz2vbmjjjyd.onion/index.html"
+    # url = "http://nsalewdnfclsowcal6kn5csm4ryqmfpijznxwictukhrgvz2vbmjjjyd.onion/index.html"
+    url = "http://nsalewdnfclsowcal6kn5csm4ryqmfpijznxwictukhrgvz2vbmjjjyd.onion/lot12.html"
     session = get_tor_session()
     
     soup = fetch_and_parse(url, session)
