@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+from datetime import datetime
 
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
@@ -14,6 +15,10 @@ proxies = {
     'http': 'socks5h://127.0.0.1:9150',
     'https': 'socks5h://127.0.0.1:9150'
 }
+
+# Date range for filtering (Jan to Aug 2024)
+start_date = datetime(2024, 1, 1)
+end_date = datetime(2024, 8, 31)
 
 # Send the request via Tor
 response = requests.get(url, proxies=proxies, headers=headers)
@@ -43,8 +48,15 @@ if response.status_code == 200:
         company_info = {}
         company_info['name'] = post.find('a').get_text(strip=True)
         company_info['url'] = post.find('a')['href']
-        company_info['date'] = post.find('span', class_='meta').get_text(strip=True)
-        companies.append(company_info)
+        date_str = post.find('span', class_='meta').get_text(strip=True)
+        
+        # Parse the date string into a datetime object
+        company_date = datetime.strptime(date_str, "%b %d, %Y")
+        
+        # Check if the company date is between Jan and Aug 2024
+        if start_date <= company_date <= end_date:
+            company_info['date'] = date_str
+            companies.append(company_info)
 
     # Compile all data into a final dictionary
     result = {
