@@ -3,7 +3,6 @@ import csv
 import base64
 import re
 import argparse
-import sys
 
 
 import requests
@@ -95,7 +94,7 @@ class Scraper():
             for row in reader:
                 if not (int(row['no']) >= start and int(row['no']) < start + records):
                     continue
-                link = f'{self.mirror}{row['link']}'
+                link = f'{self.mirror}{row["link"]}'
                 print(f'===== scraping {link} ...')
                 self.scrape_victim_page(link, row['no'])
 
@@ -269,7 +268,7 @@ class Scraper():
         )
 
         # success
-        print(f'{page_load.get_attribute('class')}')
+        print(page_load.get_attribute('class'))
         if page_load.get_attribute('class') == 'neterror onion-error':
             print('error page netonion')
             return False
