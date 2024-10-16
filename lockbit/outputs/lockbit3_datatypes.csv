@@ -1,0 +1,401 @@
+ransom_group_no,categories
+apexbrasil.com.br,Customer
+apexbrasil.com.br,Financial
+apexbrasil.com.br,Health
+apexbrasil.com.br,Internal Documents
+apexbrasil.com.br,PII
+apexbrasil.com.br,Private Communications
+apexbrasil.com.br,Source Code
+apexbrasil.com.br,Strategic
+apexbrasil.com.br,System Configurations
+contest.omg,Customer
+contest.omg,Financial
+contest.omg,Internal Documents
+contest.omg,Media
+contest.omg,Source Code
+vikrantsprings.com,Financial
+vikrantsprings.com,Internal Documents
+bspcr.com,Customer
+bspcr.com,Financial
+bspcr.com,Health
+bspcr.com,Internal Documents
+bspcr.com,Media
+bspcr.com,PII
+bspcr.com,Private Communications
+bspcr.com,Source Code
+jmjcorporation.com,Internal Documents
+jmjcorporation.com,Private Communications
+acla-werke.com,Financial
+acla-werke.com,Health
+acla-werke.com,Media
+acla-werke.com,Private Communications
+dowley.com,Customer
+tetco.com,Credentials
+tetco.com,Financial
+tetco.com,Internal Documents
+tetco.com,Media
+tetco.com,Source Code
+tetco.com,System Configurations
+cloudminds.com,Customer
+cloudminds.com,Financial
+cloudminds.com,Health
+cloudminds.com,Internal Documents
+cloudminds.com,PII
+cloudminds.com,Private Communications
+cloudminds.com,Strategic
+telekom.com,Financial
+bridgestoneamericas.com,Financial
+bridgestoneamericas.com,Internal Documents
+easternshipbuilding.com,Financial
+easternshipbuilding.com,Internal Documents
+universalservicesms.com,Financial
+universalservicesms.com,Health
+universalservicesms.com,Internal Documents
+universalservicesms.com,Location
+universalservicesms.com,Media
+universalservicesms.com,PII
+universalservicesms.com,Private Communications
+universalservicesms.com,Source Code
+universalservicesms.com,Strategic
+universalservicesms.com,System Configurations
+albanybank.com,Customer
+albanybank.com,Financial
+albanybank.com,Internal Documents
+albanybank.com,Media
+albanybank.com,Strategic
+casajove.com,Customer
+casajove.com,Financial
+casajove.com,Health
+casajove.com,Internal Documents
+casajove.com,Media
+casajove.com,PII
+casajove.com,Private Communications
+carsonteam.com,Media
+taylorlaw.net,Customer
+taylorlaw.net,Financial
+taylorlaw.net,Internal Documents
+taylorlaw.net,Location
+taylorlaw.net,Media
+taylorlaw.net,PII
+taylorlaw.net,Source Code
+taylorlaw.net,Strategic
+taylorlaw.net,System Configurations
+taylorlaw.net,Trade Secrets
+aei.cc,Customer
+aei.cc,Financial
+aei.cc,Health
+aei.cc,Internal Documents
+aei.cc,Media
+aei.cc,PII
+themisbourne.co.uk,Customer
+themisbourne.co.uk,Internal Documents
+themisbourne.co.uk,Location
+themisbourne.co.uk,Media
+themisbourne.co.uk,Source Code
+coreengg.com,Financial
+coreengg.com,Internal Documents
+coreengg.com,Media
+robesoncoso.org,Customer
+robesoncoso.org,Financial
+robesoncoso.org,Internal Documents
+robesoncoso.org,Media
+robesoncoso.org,Private Communications
+robesoncoso.org,Source Code
+robesoncoso.org,Strategic
+robesoncoso.org,System Configurations
+robesoncoso.org,Trade Secrets
+paybito.com,Credentials
+paybito.com,Customer
+paybito.com,Financial
+paybito.com,PII
+customssupport.be,Internal Documents
+nfcaa.org,Financial
+nfcaa.org,Internal Documents
+nfcaa.org,Location
+nfcaa.org,PII
+nfcaa.org,Private Communications
+nfcaa.org,Strategic
+bildco.ae,Financial
+bildco.ae,Health
+bildco.ae,Internal Documents
+bildco.ae,Strategic
+crbrandsinc.com,Customer
+crbrandsinc.com,Financial
+crbrandsinc.com,Internal Documents
+crbrandsinc.com,PII
+crbrandsinc.com,Private Communications
+crbrandsinc.com,Strategic
+unisi.it,Customer
+unisi.it,Internal Documents
+unisi.it,Media
+unisi.it,Private Communications
+auburnpikapp.org,Financial
+auburnpikapp.org,Internal Documents
+auburnpikapp.org,Media
+fanningfanning.com,Customer
+fanningfanning.com,Financial
+fanningfanning.com,Internal Documents
+fanningfanning.com,Source Code
+fanningfanning.com,Strategic
+pkf.com.au,Financial
+pkf.com.au,Intellectual Property
+pkf.com.au,Internal Documents
+twpunionschools.org,Internal Documents
+twpunionschools.org,Media
+yesmoke.eu,Customer
+yesmoke.eu,Financial
+yesmoke.eu,Internal Documents
+yesmoke.eu,PII
+21stcenturyvitamins.com,Credentials
+21stcenturyvitamins.com,Customer
+21stcenturyvitamins.com,Financial
+21stcenturyvitamins.com,Health
+21stcenturyvitamins.com,Intellectual Property
+21stcenturyvitamins.com,Internal Documents
+21stcenturyvitamins.com,Media
+21stcenturyvitamins.com,PII
+21stcenturyvitamins.com,Private Communications
+21stcenturyvitamins.com,Strategic
+21stcenturyvitamins.com,System Configurations
+21stcenturyvitamins.com,Trade Secrets
+nationaldentex.com,Internal Documents
+vstar.in,Internal Documents
+inces.com,Customer
+inces.com,Financial
+inces.com,Internal Documents
+atcdi.com.cn,Financial
+atcdi.com.cn,Media
+atcdi.com.cn,Strategic
+glnf.fr,Internal Documents
+ctc-corp.net,Financial
+kns.com,Health
+kns.com,Internal Documents
+kns.com,Media
+kns.com,PII
+kns.com,Private Communications
+kimmelcleaners.com,Financial
+kimmelcleaners.com,Internal Documents
+akanea.com,Customer
+akanea.com,Financial
+akanea.com,Internal Documents
+akanea.com,Private Communications
+akanea.com,Source Code
+carlfischer.com,Financial
+carlfischer.com,Media
+carlfischer.com,PII
+tegaindustries.com,Financial
+tegaindustries.com,Health
+tegaindustries.com,Internal Documents
+tegaindustries.com,Private Communications
+tegaindustries.com,Source Code
+tegaindustries.com,Strategic
+tegaindustries.com,Trade Secrets
+inouemfg.com,Customer
+inouemfg.com,Financial
+inouemfg.com,Internal Documents
+calvia.com,Financial
+calvia.com,Health
+calvia.com,Internal Documents
+calvia.com,Media
+calvia.com,PII
+calvia.com,Private Communications
+cdtmedicus.pl,Health
+cdtmedicus.pl,Media
+cdtmedicus.pl,PII
+ignitarium.com,Location
+ignitarium.com,Media
+ignitarium.com,Source Code
+designintoto.com.au,Financial
+designintoto.com.au,Internal Documents
+designintoto.com.au,Media
+champion.com.co,Financial
+champion.com.co,Internal Documents
+ksa-architecture.com,Financial
+ksa-architecture.com,Internal Documents
+ksa-architecture.com,Source Code
+srg-plc.com,Customer
+srg-plc.com,Financial
+srg-plc.com,Internal Documents
+srg-plc.com,Media
+srg-plc.com,Private Communications
+srg-plc.com,Strategic
+oyaksgs.com.tr,Customer
+oyaksgs.com.tr,Financial
+oyaksgs.com.tr,Health
+oyaksgs.com.tr,Internal Documents
+oyaksgs.com.tr,Location
+oyaksgs.com.tr,Media
+oyaksgs.com.tr,PII
+oyaksgs.com.tr,Private Communications
+oyaksgs.com.tr,Source Code
+oyaksgs.com.tr,Strategic
+oyaksgs.com.tr,System Configurations
+vitema.vi.gov,Customer
+vitema.vi.gov,Financial
+vitema.vi.gov,Internal Documents
+vitema.vi.gov,Media
+vitema.vi.gov,Private Communications
+vitema.vi.gov,Strategic
+vitema.vi.gov,System Configurations
+vitema.vi.gov,Trade Secrets
+torrepacheco.es,Internal Documents
+torrepacheco.es,Media
+torrepacheco.es,PII
+rmhfranchise.com,Internal Documents
+rmhfranchise.com,Media
+brfibra.com,Media
+sampoernaagro.com,Customer
+sampoernaagro.com,Financial
+sampoernaagro.com,Health
+sampoernaagro.com,Internal Documents
+sampoernaagro.com,Location
+sampoernaagro.com,PII
+sampoernaagro.com,Strategic
+kjf-augsburg.de,Financial
+kjf-augsburg.de,Health
+kjf-augsburg.de,Internal Documents
+kjf-augsburg.de,Media
+kjf-augsburg.de,PII
+kjf-augsburg.de,Private Communications
+kjf-augsburg.de,Source Code
+kjf-augsburg.de,System Configurations
+richmont.edu,Customer
+richmont.edu,Financial
+richmont.edu,Health
+richmont.edu,Internal Documents
+richmont.edu,Media
+richmont.edu,PII
+richmont.edu,Private Communications
+richmont.edu,Source Code
+richmont.edu,Strategic
+jdbchina.com,Source Code
+sandytownshippolice.org,Customer
+sandytownshippolice.org,Financial
+sandytownshippolice.org,Internal Documents
+sandytownshippolice.org,Media
+sandytownshippolice.org,Strategic
+habeco.com.vn,Financial
+habeco.com.vn,Internal Documents
+habeco.com.vn,PII
+habeco.com.vn,Private Communications
+hphood.com,Financial
+rhp.com.br,Health
+rhp.com.br,Media
+rhp.com.br,PII
+vinatiorganics.com,Financial
+vinatiorganics.com,Internal Documents
+bridgestoneamericas.com,Financial
+bridgestoneamericas.com,Internal Documents
+bridgestoneamericas.com,Strategic
+bridgestoneamericas.com,Trade Secrets
+hbmolding.com,Financial
+hbmolding.com,Health
+hbmolding.com,Internal Documents
+hbmolding.com,Location
+hbmolding.com,Media
+hbmolding.com,PII
+hbmolding.com,Private Communications
+hbmolding.com,Source Code
+countyins.com,Customer
+countyins.com,Financial
+countyins.com,Health
+countyins.com,Internal Documents
+countyins.com,Media
+countyins.com,Private Communications
+udhaiyamdhall.com,Customer
+udhaiyamdhall.com,Internal Documents
+udhaiyamdhall.com,PII
+udhaiyamdhall.com,Private Communications
+salaam.af,Health
+salaam.af,PII
+crinetics.com,Customer
+crinetics.com,Financial
+crinetics.com,Internal Documents
+crinetics.com,PII
+bnsgroup.co.uk,Customer
+bnsgroup.co.uk,Financial
+bnsgroup.co.uk,Source Code
+ipsenlogistics.com,Financial
+centralepaysanne.lu,Customer
+centralepaysanne.lu,Financial
+centralepaysanne.lu,Internal Documents
+jutebag.co.uk,Customer
+jutebag.co.uk,Financial
+jutebag.co.uk,Media
+iaconnecticut.com,Financial
+iaconnecticut.com,Internal Documents
+fivestarproducts.com,Customer
+fivestarproducts.com,Financial
+fivestarproducts.com,Internal Documents
+fivestarproducts.com,Location
+fivestarproducts.com,Media
+fivestarproducts.com,PII
+fivestarproducts.com,Strategic
+fivestarproducts.com,Trade Secrets
+planethomelending.com,Media
+fbrlaw.com,Financial
+fbrlaw.com,Internal Documents
+fbrlaw.com,PII
+fbrlaw.com,Source Code
+fbrlaw.com,Strategic
+tdsb.on.ca,Financial
+tdsb.on.ca,Internal Documents
+ccofva.com,Customer
+ccofva.com,Financial
+ccofva.com,Internal Documents
+ccofva.com,Location
+ccofva.com,Media
+ccofva.com,PII
+ccofva.com,System Configurations
+dagma.com.ar,Customer
+dagma.com.ar,Financial
+dagma.com.ar,Health
+dagma.com.ar,Internal Documents
+dagma.com.ar,Media
+dagma.com.ar,Private Communications
+disb.dc.gov,Financial
+disb.dc.gov,Health
+disb.dc.gov,Internal Documents
+disb.dc.gov,PII
+disb.dc.gov,Private Communications
+acla.de,Financial
+hpo.pe,Location
+hpo.pe,Media
+huntongroup.com,Financial
+huntongroup.com,Internal Documents
+gpaa.gov.za,Financial
+gpaa.gov.za,Health
+gpaa.gov.za,Internal Documents
+gpaa.gov.za,Media
+gpaa.gov.za,PII
+bnpmedia.com,Customer
+bnpmedia.com,Financial
+bnpmedia.com,Internal Documents
+acsistemas.com,Credentials
+acsistemas.com,Financial
+acsistemas.com,Internal Documents
+lakelandchamber.com,Internal Documents
+lakelandchamber.com,Private Communications
+acdcexpress.com,Media
+acdcexpress.com,Private Communications
+ufresources.com,Customer
+ufresources.com,Financial
+ufresources.com,Internal Documents
+ufresources.com,PII
+gbricambi.it,Financial
+gbricambi.it,Internal Documents
+anwaltskanzlei-kaufbeuren.de,Financial
+anwaltskanzlei-kaufbeuren.de,Internal Documents
+anwaltskanzlei-kaufbeuren.de,Media
+anwaltskanzlei-kaufbeuren.de,Private Communications
+binder.de,Customer
+binder.de,Financial
+binder.de,Internal Documents
+binder.de,Private Communications
+utc-silverstone.co.uk,Financial
+efile.com,Customer
+efile.com,Financial
+efile.com,Internal Documents
+efile.com,PII
+efile.com,Source Code
+efile.com,System Configurations
