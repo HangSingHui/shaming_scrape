@@ -25,8 +25,8 @@ class Scraper():
         import os
         work_dir = os.path.dirname(os.path.realpath(__file__))
         # work_dir = "/home/soonann/development/y4-t1/cs445/project/shaming_scrape/lockbit"
-        torbrowser_path = os.path.join(work_dir, "tor-browser")
-        geckodriver_path = os.path.join(work_dir, "geckodriver")
+        torbrowser_path = os.path.join(work_dir, "lib/tor-browser")
+        geckodriver_path = os.path.join(work_dir, "lib/geckodriver")
         self.output_path = os.path.join(work_dir, "outputs")
         self.mirror = mirror
 
@@ -190,8 +190,8 @@ class Scraper():
         writer = csv.writer(file)
 
         # Header col
-        writer.write(['no', 'link', 'post_title', 'post_text',
-                     'updated_post_date'])
+        writer.writerow(['no', 'link', 'post_title', 'post_text',
+                         'updated_post_date'])
 
         no = 0
         for post in post_blocks:
