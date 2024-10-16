@@ -57,7 +57,7 @@ class Scraper():
         )
 
     def __del__(self):
-        input("Press enter to proceed")
+        # input("Press enter to proceed")
         # self.xvfb_display = stop_xvfb()
         self.driver.quit()
 
@@ -80,9 +80,9 @@ class Scraper():
             )
 
             # Get the posts
-            elements = self.driver.find_elements(By.CLASS_NAME, "post-block")
+            listing = self.driver.find_element(By.CLASS_NAME, "post-big-list")
             Scraper.parse_victim_listing_page(
-                elements.get_attribute("outerHTML"),
+                listing.get_attribute("outerHTML"),
                 f'{self.output_path}/lockbit3.csv'
             )
 
