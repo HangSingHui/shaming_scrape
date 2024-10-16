@@ -268,25 +268,27 @@ class Scraper():
         )
 
         # success
-        print(page_load.get_attribute('class'))
-        if page_load.get_attribute('class') == 'neterror onion-error':
-            print('error page netonion')
-            return False
-        else:
-
-            ft = WebDriverWait(self.driver, 360).until(
-                EC.visibility_of_element_located(
-                    (By.XPATH, "//a[contains(@href, 'file-tree.txt')]",)
-                )
-            )
-            ft_href = ft.get_attribute('href')
-            print(f'===== downloading {ft_href}')
-            try:
-                Scraper.download_file(
-                    ft_href, os.path.join(outdir, 'filetree.txt'))
-            except Exception as download_fail_ex:
-                print(download_fail_ex)
+        try:
+            print(page_load.get_attribute('class'))
+            if page_load.get_attribute('class') == 'neterror onion-error':
+                print('error page netonion')
                 return False
+            else:
+
+                ft = WebDriverWait(self.driver, 360).until(
+                    EC.visibility_of_element_located(
+                        (By.XPATH, "//a[contains(@href, 'file-tree.txt')]",)
+                    )
+                )
+                ft_href = ft.get_attribute('href')
+                print(f'===== downloading {ft_href}')
+                Scraper.download_file(
+                    ft_href,
+                    os.path.join(outdir, 'filetree.txt')
+                )
+        except Exception as download_fail_ex:
+            print(download_fail_ex)
+            return False
         return True
 
     # The onion link of filtree
