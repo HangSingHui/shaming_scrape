@@ -128,14 +128,20 @@ class Scraper():
         # Wait for either ts-container or reserve-links
         # TODO: handle exception
         print('waiting for ts-container or reserve-links')
-        container = WebDriverWait(self.driver, 10).until(
-            EC.any_of(
-                EC.visibility_of_element_located(
-                    (By.CLASS_NAME, 'ts-container')),
-                EC.visibility_of_element_located(
-                    (By.CLASS_NAME, 'reserve-links'))
+        container = None
+        try:
+            container = WebDriverWait(self.driver, 10).until(
+                EC.any_of(
+                    EC.visibility_of_element_located(
+                        (By.CLASS_NAME, 'ts-container')),
+                    EC.visibility_of_element_located(
+                        (By.CLASS_NAME, 'reserve-links'))
+                )
             )
-        )
+        except:
+            print(f'===== ERROR timeout ...')
+            return
+
         print('found for ts-container or reserve-links')
 
         # Case 1: images
