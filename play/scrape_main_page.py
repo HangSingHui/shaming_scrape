@@ -3,9 +3,6 @@ from bs4 import BeautifulSoup
 import csv
 import os
 
-# TODO: this is not complete yet
-
-
 def parse_post_block(markup, outfile):
     soup = BeautifulSoup(markup, 'html.parser')
 
