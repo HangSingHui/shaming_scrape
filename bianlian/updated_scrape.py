@@ -8,10 +8,10 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
 }
 
-# The onion URL you want to scrape
+# BianLian Onion URL 
 base_url = "http://bianlianlbc5an4kgnay3opdemgcryg2kpfcbgczopmm3dnbz3uaunad.onion"
 
-# Set up the proxies for Tor (SOCKS5)
+# Set up SOCKS5 proxies for Tor
 proxies = {
     'http': 'socks5h://127.0.0.1:9150',
     'https': 'socks5h://127.0.0.1:9150'
@@ -29,7 +29,7 @@ if response.status_code == 200:
     # Parse the page content
     soup = BeautifulSoup(response.text, 'html.parser')
 
-    # Extract the list of posts and their metadata
+    # Extract list of posts and metadata
     companies = []
     posts = soup.find('ul', class_='posts').find_all('li', class_='post')
     
@@ -42,18 +42,18 @@ if response.status_code == 200:
         # Parse the date string into a datetime object
         company_date = datetime.strptime(date_str, "%b %d, %Y")
         
-        # Check if the company date is between Jan and Aug 2024
+        # Check if the post date is between Jan and Aug 2024
         if start_date <= company_date <= end_date:
             company_info['date'] = date_str
             
-            # Go into each post (within the main page itself) to extract detailed information
+            # Go into each post to extract detailed information
             company_page_url = base_url + company_info['url']
             company_response = requests.get(company_page_url, proxies=proxies, headers=headers)
             
             if company_response.status_code == 200:
                 company_soup = BeautifulSoup(company_response.text, 'html.parser')
                 
-                # Dynamic content extraction from the post
+                # Content extraction
                 company_content = {}
 
                 # Extract the title of the post (company name)
@@ -61,23 +61,23 @@ if response.status_code == 200:
                 if title_section:
                     company_content['title'] = title_section.get_text(strip=True)
                 
-                # Extract links within the post (e.g., official website link)
+                # Extract links within the post
                 post_links = [a['href'] for a in company_soup.find_all('a', href=True)]
                 company_content['links'] = post_links
 
-                # Extract paragraphs of description
+                # Extract description paragraphs
                 paragraphs = [p.get_text(strip=True) for p in company_soup.find_all('p')]
                 company_content['description'] = paragraphs
 
-                # Extract preformatted code sections (if any)
+                # Extract preformatted code sections
                 code_sections = [pre.get_text(strip=True) for pre in company_soup.find_all('pre')]
                 company_content['code_sections'] = code_sections
 
-                # Extract list items (e.g., bullet points in data description)
+                # Extract list items (data description bullet points)
                 list_items = [li.get_text(strip=True) for li in company_soup.find_all('li')]
                 company_content['list_items'] = list_items
 
-                # Optional: wait before making the next request to avoid overloading the server
+                # Wait before making the next request to avoid overloading the server
                 time.sleep(1)
 
                 # Add the dynamically extracted content to the company_info
@@ -86,7 +86,7 @@ if response.status_code == 200:
             # Add the company info to the list of companies
             companies.append(company_info)
 
-    # Compile all data into a final dictionary
+    # Compile all data
     result = {
         'companies': companies
     }
@@ -96,4 +96,5 @@ if response.status_code == 200:
         json.dump(result, f, indent=4)
 
 else:
+    # Error message
     print(f"Failed to reach the site. Status code: {response.status_code}")
